@@ -1,0 +1,10 @@
+<div>
+  <div>
+    <button class="btn btn-primary d-flex" (click)="onToggleDetails()">
+      Show Detail
+    </button>
+    <p *ngIf="showSecret">Your password is = 123</p>
+    <p *ngFor="let logitem of logs"
+      [ngStyle]="{backgroundColor : logitem >= 5 ? 'blue' : 'red' }">{{logitem}}</p>
+  </div>
+</div>
