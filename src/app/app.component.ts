@@ -14,7 +14,6 @@ export class AppComponent {
     this.showSecret= !this.showSecret;
     // @ts-ignore
     this.logs.push(this.logs.length + 1);
-
   }
 
 }

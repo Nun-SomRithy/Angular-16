@@ -1,4 +1,13 @@
-<div>
+<app-header></app-header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <app-recipes> </app-recipes>
+      <app-shopping-list> </app-shopping-list>    
+    </div>
+  </div>
+
+<!-- <div>
   <div>
     <button class="btn btn-primary d-flex" (click)="onToggleDetails()">
       Show Detail
@@ -7,4 +16,4 @@
     <p *ngFor="let logitem of logs"
       [ngStyle]="{backgroundColor : logitem >= 5 ? 'blue' : 'red' }">{{logitem}}</p>
   </div>
-</div>
+</div> -->
